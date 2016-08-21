@@ -304,9 +304,9 @@ angular.module('ionic.contrib.drawer', ['ionic'])
 
         function toggleDrawer() {
           if (ctrl.isOpen()) {
-            ctrl.close();
+            closeDrawer();
           } else {
-            ctrl.open();
+            openDrawer();
           }
         }
       }
